@@ -106,7 +106,7 @@ public class Impressora {
     void sinalSonoro() {
         System.out.println("Quantos bips? (1 a 63)");
         int quantidade = Menu.lerNumero();
-        int retorno = ImpressoraDLL.INSTANCE.SinalSonoro(quantidade, 50, 5);
+        int retorno = ImpressoraDLL.INSTANCE.SinalSonoro(quantidade, 20, 5);
         mostrarResultado(retorno, "Sinal sonoro");
     }
 
