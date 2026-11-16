@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         String usuario = "cr7";
-        String senha = "12345";
+        String senha = "123456";
         boolean logado = false;
 
         for (int tentativa = 3; tentativa > 0; tentativa--) {
