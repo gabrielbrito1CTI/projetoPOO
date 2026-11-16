@@ -67,7 +67,7 @@ public class Impressora {
     void impressaoQRCode() {
         System.out.println("Digite o conteudo do QR Code:");
         String dados = Menu.lerTexto();
-        int retorno = ImpressoraDLL.INSTANCE.ImpressaoQRCode(dados, 6, 4);
+        int retorno = ImpressoraDLL.INSTANCE.ImpressaoQRCode(dados, 10, 4);
         mostrarResultado(retorno, "QR Code");
         ImpressoraDLL.INSTANCE.Corte(5);
     }
@@ -106,7 +106,7 @@ public class Impressora {
     void sinalSonoro() {
         System.out.println("Quantos bips? (1 a 63)");
         int quantidade = Menu.lerNumero();
-        int retorno = ImpressoraDLL.INSTANCE.SinalSonoro(quantidade, 20, 5);
+        int retorno = ImpressoraDLL.INSTANCE.SinalSonoro(quantidade, 10, 5);
         mostrarResultado(retorno, "Sinal sonoro");
     }
 
