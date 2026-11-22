@@ -5,7 +5,7 @@
 ## 📘 Sobre o Projeto
 
 
-Este projeto foi desenvolvido pelo nosso grupo para se comunicar com uma impressora térmica **Elgin i8/i9** usando a biblioteca `E1_Impressora01.dll`. O sistema tem login com 3 tentativas, que é executado dentro de uma classe Menu, e um menu com operações da impressora que também está dentro da classe Menu, e a classe Impressoraque possuí todos os métodos de cada opção. Faz parte da disciplina de **Programação Orientada a Objetos**.
+Este projeto foi desenvolvido pelo nosso grupo para se comunicar com uma impressora térmica **Elgin i8/i9** usando a biblioteca `E1_Impressora01.dll`. O sistema tem login com 3 tentativas, que é executado dentro de uma classe Menu, e um menu com operações da impressora que também está dentro da classe Menu, e a classe Impressora que possuí todos os métodos de cada opção. Faz parte da disciplina de **Programação Orientada a Objetos** do curso Técnico em Informática do Colégio UNASP-SP.
 
 ---
 
