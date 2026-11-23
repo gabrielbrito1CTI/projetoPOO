@@ -86,7 +86,7 @@ Este projeto foi desenvolvido pelo nosso grupo para se comunicar com uma impress
 
 ## 📚 Documentação Adicional
 
-- Manual da impressora Elgin
+- https://elgindevelopercommunity.github.io/group___m1.html
 - Documentação do SDK E1_Impressora
 
 ---
